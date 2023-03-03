@@ -4,7 +4,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: var(--cream);
+    
+    
 }
 
 .wrapper {
@@ -12,6 +14,7 @@ main {
     height: auto;
     margin: 1rem;
     padding: 1rem;
+    
 }
 
 .card {
@@ -20,7 +23,7 @@ main {
     display: flex;
     border-radius: 15px;;
     overflow: hidden;
-    
+
 }
 
 .img-section {
@@ -29,7 +32,7 @@ main {
     
 }
 
-.img-section, img {
+.img-section img {
     height: 100%;
     object-fit: cover;
 
@@ -82,19 +85,26 @@ main {
     color: var(--dark-grayish-blue); 
 }
 
-button {
+.btn {
     height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-style: none;
     border-radius: 10px;
-    background: var(--dark-cyan);
+    background-color: var(--dark-cyan);
     color: var(--white);
-    transition: all 0.5s;
+    transition: 0.5s ease-in-out;
+    filter: brightness(1.0);
+    
+    
     
 }
 
-button:hover {
-    
-    backdrop-filter: brightness(50%);
-    
-    
+.btn .cart-img {
+    margin-right: 0.5rem;
+}
+
+.btn:hover {
+    background-color: hsl(158, 36%, 22%);
 }
