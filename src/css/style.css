@@ -76,8 +76,9 @@ main {
     
 }
 
-.txt-section, .txt-price>h1 {
+.txt-section .txt-price>h1 {
     color: var(--dark-cyan);
+    font-family: 'Fraunces', serif;
 }
 
 .txt-section .txt-price .txt-saled{
@@ -92,6 +93,7 @@ main {
     justify-content: center;
     border-style: none;
     border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--dark-cyan);
     color: var(--white);
     transition: 0.5s ease-in-out;
