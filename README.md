@@ -65,7 +65,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution]https://www.frontendmentor.io/solutions/product-card-made-with-html-and-css-TzOiwwIkOe)
 - Live Site URL: [Product Card](https://duzoka.github.io/product-card/)
 
 ## My process
