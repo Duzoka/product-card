@@ -1,0 +1,42 @@
+@media (max-width: 695px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .card {
+        width: 90vw;
+        height: 90vh;
+        flex-direction: column;
+        
+        
+    }
+
+    .img-section {
+        width: 100%;
+        height: 40%;
+        background-image: url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-section img {
+        height: 0%;
+        display: none;   
+    }
+
+    .txt-section {
+        height: 60%;
+        padding: 1rem;
+    }
+
+
+    .txt-title {
+        padding-right: 1rem;
+    
+    }
+
+    .txt-content {
+        padding-right: 0.8rem;
+    }
+}
