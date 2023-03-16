@@ -99,6 +99,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ```
 
+```HTML
+ <del>
+   <span>$169.99</span>
+ </del>
+ ```
+
+
 ### Continued development
 
 Never give up. Just stay determined and strong on the way. Go ahead and do projects. :)
