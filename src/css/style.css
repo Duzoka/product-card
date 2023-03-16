@@ -82,8 +82,8 @@ main {
     font-family: 'Fraunces', serif;
 }
 
-.txt-section .txt-price .txt-saled{
-    margin-left: 1rem;
+.txt-section .txt-price span{
+    margin-left: .5rem;
     color: var(--dark-grayish-blue); 
 }
 
