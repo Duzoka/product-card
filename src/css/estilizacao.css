@@ -21,8 +21,8 @@
     }
 
     .img-section img {
-        height: 0%;
-        display: none;   
+        width: 100%;
+       
     }
 
     .txt-section {

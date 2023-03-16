@@ -20,7 +20,13 @@
             <div class="card">
                 <div class="img-section">
                    
-                    <img src="./src/images/image-product-desktop.jpg" alt="perfume">
+                    <picture>
+                        <source media="(max-width: 695px )" srcset="./src/images/image-product-mobile.jpg">
+                        <source media="(min-width: 700px )" srcset="./src/images/image-product-desktop.jpg">
+                        <img src="./src/images/image-product-desktop.jpg" alt="perfume">
+                    </picture>
+
+                    <!-- <img src="./src/images/image-product-desktop.jpg" alt="perfume"> -->
                 </div>
                 <div class="txt-section">
                    <span class="txt-perfume"> <p>PERFUME</p></span>
