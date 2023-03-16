@@ -45,19 +45,19 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 <table>
 
- <thead> <th>Desktop Screenshot</th> <th> Mobile Screenshot</th> </thead>
-
+ <thead> 
+    <th>Desktop Screenshot</th>
+    <th> Mobile Screenshot</th> 
+ </thead>
  <tbody>
- <tr> 
- <td>
-  <img src="https://user-images.githubusercontent.com/102036752/222905856-09e43a66-cfe4-4609-81eb-a6cdb7ab074e.png">
-
-
- </td>
- <td>
- <img src="https://user-images.githubusercontent.com/102036752/222904655-63ec618f-9190-4e93-9c9d-41b8dcacfb13.png" alt="mobile screenshot">
-</td>
- </tr>
+  <tr> 
+    <td>
+      <img src="https://user-images.githubusercontent.com/102036752/222905856-09e43a66-cfe4-4609-81eb-a6cdb7ab074e.png">
+   </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/102036752/222904655-63ec618f-9190-4e93-9c9d-41b8dcacfb13.png" alt="mobile screenshot">
+    </td>
+   </tr>
  </tbody>
 
 </table>
@@ -89,6 +89,16 @@ This is a solution to the [Product preview card component challenge on Frontend 
 }
 ```
 
+```html
+
+<picture>
+    <source media="(max-width: 695px )" srcset="./src/images/image-product-mobile.jpg">
+    <source media="(min-width: 700px )" srcset="./src/images/image-product-desktop.jpg">
+    <img src="./src/images/image-product-desktop.jpg" alt="perfume">
+</picture>
+
+```
+
 ### Continued development
 
 Never give up. Just stay determined and strong on the way. Go ahead and do projects. :)
@@ -105,4 +115,4 @@ Never give up. Just stay determined and strong on the way. Go ahead and do proje
 
 ## Acknowledgments
 
-ChatGPT send to you an embrance! :)
+ChatGPT send to you an embrance! And also this guy have helped my in Frontend Mentor: [Her profile in Frontend Mentor](https://www.frontendmentor.io/profile/0xAbdulKhalid). 
