@@ -97,10 +97,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--dark-cyan);
     color: var(--white);
-    transition: 0.5s ease-in-out;
-    filter: brightness(1.0);
-    
-    
+    transition: 0.5s ease-in-out;   
     
 }
 
