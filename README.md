@@ -122,4 +122,4 @@ Never give up. Just stay determined and strong on the way. Go ahead and do proje
 
 ## Acknowledgments
 
-ChatGPT send to you an embrance! And also this guy have helped my in Frontend Mentor: [Her profile in Frontend Mentor](https://www.frontendmentor.io/profile/0xAbdulKhalid). 
+ChatGPT send to you an embrance! And also this guy have helped me in Frontend Mentor: [Her profile in Frontend Mentor](https://www.frontendmentor.io/profile/0xAbdulKhalid). 
